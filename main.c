@@ -9,10 +9,9 @@
 #define MAX_PATH_LENGTH 1024
 
 void clean() {
-    DIR *dir;
     struct dirent *entry;
 
-    dir = opendir(".");
+    DIR *dir = opendir(".");
     if (dir == NULL) {
         perror("Error reading directory");
         return;
