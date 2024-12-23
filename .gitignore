@@ -53,3 +53,8 @@ dkms.conf
 
 #cmake
 build/
+
+# clion
+.idea/
+cmake-build-debug/
+cmake-build-release/
